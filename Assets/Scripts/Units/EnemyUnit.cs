@@ -44,7 +44,6 @@ namespace Units
                     if (Vector3.Distance(transform.position, _targetPosition) > attackRange)
                     {
                         _movement.RoamToTarget();
-                        Debug.Log("Roam To Target");
                     }
                     break;
                 case State.Fight:
